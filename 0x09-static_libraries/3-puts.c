@@ -7,9 +7,9 @@
 *
 * Return: void
 */
-void _puts(char *str)
+void _puts(char *s)
 {
-/* function code goes here */
+puts(s);
 }
 
 /**
