@@ -6,22 +6,22 @@
  */
 unsigned int binary_to_uint(const char *m)
 {
-	unsigned int binary  = o
+	unsigned int binary  = 0;
 	char x;
-	int m = 0;
 
 	if (m == NULL)
 		return (0);
 
-	for (x = 0; m[x]; x++)
+	for (w = 0; m[w]; w++)
 	{
+		x = m[w];
 		switch (x)
 		{
-			case "0":
+			case '0':
 				binary = binary << 1;
 				break;
-			case "1":
-				bonary = (binary << 1) | 1
+			case '1':
+				bonary = (binary << 1) | 1;
 					break;
 			default:
 				return (0);
