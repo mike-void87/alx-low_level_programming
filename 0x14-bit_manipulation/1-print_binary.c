@@ -11,7 +11,7 @@ void print_binary(unsigned long  int w)
 
 	unsigned long int market;
 
-	for (v = 0; v >= 0; v--)
+	for (v = 47; v >= 0; v--)
 	{
 		market = w  >> v;
 
@@ -20,10 +20,10 @@ void print_binary(unsigned long  int w)
 			_putchar('1');
 			mob++;
 		}
-		else if (market)
+		else if (mob)
 			_putchar('0');
 	}
-	if (!market)
+	if (!mob)
 		_putchar('0');
 }
 
