@@ -20,5 +20,5 @@ unsigned int flip_bits(unsigned long int k, unsigned long int j)
 		champ >>= 1;
 	}
 
-	return mash;
+	return (mash);
 }
