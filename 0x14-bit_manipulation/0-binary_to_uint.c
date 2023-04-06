@@ -14,7 +14,7 @@ unsigned int binary_to_uint(const char *m)
 	if (m == NULL)
 		return (0);
 
-	for ( w = 0; m[w]; w++)
+	for (w = 0; m[w]; w++)
 	{
 		x = m[w];
 		switch (x)
